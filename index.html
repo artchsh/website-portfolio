@@ -1,55 +1,55 @@
-<html>
-  <head>
-    <title>artchsh's website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./resources/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./resources/js/main.js"></script>
-  </head>
-  <body>
-    <navbar>
-      <div class="logo">
-        <img src="./resources/img/logo.png">
-      </div>
-      <h1 class="path" id="menu">Main</h1>
-    </navbar>
-    <div id="changingContent">
-    <div class="container animate__animated animate__fadein">
-      <div class="card style shadow" id="toPage1">
-        <div class="title">
-          <h1 class="title-text">Page 2</h1>
-        </div>
-        <div class="content">
-          <p class="content-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio culpa dolores maxime labore quasi quidem beatae, dolor cupiditate, repellat eum dicta, nam distinctio sint voluptatibus consequuntur? Minima laborum dolorum dolores.</p>
-        </div>
-        <button class="btn">Learn more</button>
-      </div>
-      <div class="card style shadow" id="toProjects">
-        <div class="title">
-          <h1 class="title-text">Projects</h1>
-        </div>
-        <div class="content">
-          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus id omnis quasi et sed saepe molestiae animi impedit repellat reprehenderit, libero nobis pariatur, eius adipisci neque quaerat voluptatum consequuntur voluptatibus.</p>
-        </div>
-        <button class="btn" onclick="toProjects()">Learn more</button>
-      </div>
-      <div class="card style shadow" id="toPage2">
-        <div class="title">
-          <h1 class="title-text">Page 3</h1>
-        </div>
-        <div class="content">
-          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto et assumenda eveniet ipsa quaerat iste ea veritatis itaque, qui est culpa accusantium omnis voluptatibus totam maiores! Odit ex magnam quisquam?</p>
-        </div>
-        <button class="btn">Learn more</button>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1280, initial-scale=1.0">
+  <link rel="stylesheet" href="./resources/css/style.css">
+  <title>artchsh - portfolio</title>
+</head>
+
+<body>
+  <div class="nav-menu">
+    <img src="./resources/img/logo.png" alt="logo">
+  </div>
+  <div class="header">
+    <div class="card">
+      <img src="./resources/img/logo.png" alt="preview card">
+      <h2 class="title">
+        Подготовитель сайт к ЕНТ (ЕГЭ)
+      </h2>
+      <p class="content">
+        Сайт, который был сделан для репетитора. Реализована функция подписок. Языки: JS, PHP, HTML, CSS
+      </p>
+      <button onclick="lookAt(ent)">
+        Посмотреть
+      </button>
+    </div>
+    <div class="card">
+      <img src="./resources/img/logo.png" alt="preview card">
+      <h2 class="title">
+        Lorem
+      </h2>
+      <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt natus nisi autem incidunt architecto ab. Aspernatur quibusdam suscipit ipsa corporis perspiciatis obcaecati cum harum, quae nulla cumque quaerat corrupti reiciendis!
+      </p>
+      <button onclick="lookAt(ent)">
+        Посмотреть
+      </button>
     </div>
   </div>
-    <div class="card style footer shadow">
-      <p class="footer-text">Сайт сделан artchsh | <a class="link" href="https://github.com/artchsh/artchsh.github.io">Github</a></p>
-    </div>
-  
-  </body>
+  <div class="content">
+
+  </div>
+  <div class="footer">
+
+  </div>
+  <script>
+    function lookAt(x) {
+      // ! window. тут долнжа быть та самая команда которая используется на сайте для репетитора
+    }
+  </script>
+</body>
+
 </html>
