@@ -1,0 +1,78 @@
+@font-face {
+  font-family: SFProR;
+  src: url(../fonts/SFProDisplay-Regular.ttf);
+  font-weight: normal; }
+@font-face {
+  font-family: SFProB;
+  src: url(../fonts/SFProDisplay-Semibold.ttf);
+  font-weight: bold; }
+@font-face {
+  font-family: SFProUl;
+  src: url(../fonts/SFProDisplay-Ultralight.ttf);
+  font-weight: 200; }
+html,
+body {
+  margin: 0%;
+  background-color: #181818;
+  font-family: SFProR;
+  color: white; }
+
+.nav-menu {
+  background-color: green;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex; }
+  .nav-menu img {
+    width: 60px;
+    margin: 1em; }
+
+.header {
+  margin-top: 6em;
+  padding: 1em;
+  width: 100;
+  background-color: yellow;
+  display: flex;
+  justify-content: center; }
+
+.card {
+  padding: 0.3em;
+  background-color: #222;
+  width: fit-content;
+  max-width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+  position: relative; }
+  .card img {
+    width: 150px;
+    margin: auto;
+    margin-top: 1em; }
+  .card p.content {
+    padding: 1em;
+    margin-bottom: 2em; }
+  .card button {
+    width: calc(100% - 0.6rem);
+    height: 40px;
+    position: absolute;
+    margin: 0.3rem;
+    bottom: 0;
+    left: 0; }
+
+body.wallpaper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body.wallpaper p {
+    font-size: 15rem;
+    position: relative;
+    z-index: 10; }
+  body.wallpaper .top {
+    color: #41b883; }
+  body.wallpaper .bottom {
+    top: 10px;
+    left: -100px;
+    z-index: 5;
+    color: #13392c; }

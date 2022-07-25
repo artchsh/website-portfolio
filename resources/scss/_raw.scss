@@ -19,10 +19,11 @@
 html,
 body {
     margin: 0%;
-    background-color: #2c2c2c;
+    background-color: $background-color;
     font-family: SFProR;
     color: white;
 }
+
 .nav-menu {
     background-color: green;
     width: 100vw;
@@ -30,11 +31,13 @@ body {
     top: 0;
     left: 0;
     display: flex;
+
+    img {
+        width: 60px;
+        margin: 1em;
+    }
 }
-.nav-menu img {
-    width: 60px;
-    margin: 1em;
-}
+
 .header {
     margin-top: 6em;
     padding: 1em;
@@ -43,6 +46,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .card {
     padding: 0.3em;
     background-color: #222;
@@ -52,19 +56,52 @@ body {
     display: inline-block;
     margin-left: 1em;
     margin-right: 1em;
-    position: static;
-}
-.card img {
-    width: 150px;
-    margin: auto;
-    margin-top: 1em;
-}
-.card h2.title {}
-.card p.content {
-    padding: 1em;
-}
-.card button {
-    width: 100%;
-    height: 40px;
     position: relative;
+
+    img {
+        width: 150px;
+        margin: auto;
+        margin-top: 1em;
+    }
+
+    h2.title {}
+
+    p.content {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+
+    button {
+        width: calc(100% - 0.6rem);
+        height: 40px;
+        position: absolute;
+        margin: 0.3rem;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+
+// wallpaper lmao NOT IN PHOTOSHOP
+body.wallpaper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    p {
+        font-size: 15rem;
+        position: relative;
+        z-index: 10;
+    }
+    .top {
+        color: $secondary-color;
+    }
+    .bottom {
+        top: 10px;
+        left: -100px;
+        z-index: 5;
+        color: $accent-color;
+    }
 }

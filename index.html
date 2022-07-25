@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=1280, initial-scale=1.0">
-  <link rel="stylesheet" href="./resources/css/style.css">
+  <link rel="stylesheet" href="./resources/scss/style.css">
   <title>artchsh - portfolio</title>
 </head>
 
@@ -17,12 +17,12 @@
     <div class="card">
       <img src="./resources/img/logo.png" alt="preview card">
       <h2 class="title">
-        Подготовитель сайт к ЕНТ (ЕГЭ)
+        Подготовительный сайт к ЕНТ (ЕГЭ)
       </h2>
       <p class="content">
         Сайт, который был сделан для репетитора. Реализована функция подписок. Языки: JS, PHP, HTML, CSS
       </p>
-      <button onclick="lookAt(ent)">
+      <button onclick="lookAt(tutor)">
         Посмотреть
       </button>
     </div>
@@ -34,7 +34,19 @@
       <p class="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt natus nisi autem incidunt architecto ab. Aspernatur quibusdam suscipit ipsa corporis perspiciatis obcaecati cum harum, quae nulla cumque quaerat corrupti reiciendis!
       </p>
-      <button onclick="lookAt(ent)">
+      <button onclick="lookAt()">
+        Посмотреть
+      </button>
+    </div>
+    <div class="card">
+      <img src="./resources/img/logo.png" alt="preview card">
+      <h2 class="title">
+        Lorem
+      </h2>
+      <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt natus nisi autem incidunt architecto ab. Aspernatur quibusdam suscipit ipsa corporis perspiciatis obcaecati cum harum, quae nulla cumque quaerat corrupti reiciendis!
+      </p>
+      <button onclick="lookAt()">
         Посмотреть
       </button>
     </div>
@@ -47,7 +59,8 @@
   </div>
   <script>
     function lookAt(x) {
-      // ! window. тут долнжа быть та самая команда которая используется на сайте для репетитора
+      // !тут долнжа быть та самая команда которая используется на сайте для репетитора
+      // удаление всего контента на странице => загрузка контента карточки
     }
   </script>
 </body>
